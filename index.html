@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>All things London</title>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1 class="mx-2 my-4 p-2 text-center text-4xl bg-red-100 text-black font-normal uppercase font-serif rounded-md">All things London</h1>
+        <p class="text-center font-extralight text-black font-serif">"When a man is tired of London, he is tired for his life." - Samuel Johnson</p>
+
+        <div class="md:flex items-stretch">
+            <div class="mx-2 mt-4 p-2 w-1/2 text-center text-xl">
+                <div class="mx-2 mt-2 p-2 text-center text-xl ring-2 ring-blue-100 text-black font-normal uppercase font-serif">
+                    <a href="page2.html">Explore history</a> 
+                </div>
+                <div class="mx-2 mt-1 p-2 text-center text-black font-normal font-serif rounded-md place-items-stretch">
+                    <img src="history_london.jpg" alt="London_history">
+                </div>
+            </div>
+            <div class="mx-2 mt-4 p-2 w-1/2 text-center text-xl">
+                <div class="mx-2 mt-2 p-2 text-center text-xl ring-2 ring-blue-100 text-black font-normal uppercase font-serif">
+                    <a href="page3.html">Music and art</a>
+                </div>
+                <div class="mx-2 mt-1 p-2 text-center text-black font-normal font-serif rounded-md place-items-stretch">
+                    <img src="westend.jpg" alt="Westend"> 
+                </div>
+            </div>
+        </div>
+        <div class="md:flex items-stretch">
+            <div class="mx-2 mt-4 p-2 w-1/2 text-center text-xl">
+                <div class="mx-2 mt-2 p-2 text-center text-xl ring-2 ring-blue-100 text-black font-normal uppercase font-serif">   
+                    <a href="page4.html">Indulge Palate</a>
+                </div>
+                <div class="mx-2 mt-1 p-2 text-center text-black font-normal font-serif rounded-md place-items-stretch">
+                    <img src="bar_connaught.jpg" alt="BarConnaught">
+                </div>
+            </div>
+        </div>
+        <div class="md:flex items-stretch">
+            <div class="mx-2 mt-4 p-2 w-full text-center text-xl">
+                <div class="mx-2 mt-2 p-2 text-center text-xl ring-2 ring-blue-100 text-black font-normal uppercase font-serif">
+                    <a href="page2.html">Make a recommendation!</a> 
+                </div>
+                <div class="mx-2 mt-1 p-2 justify-center place-content-center items-center text-center text-black font-normal font-serif rounded-md place-items-stretch">
+                    <form action="form.html">
+                        <label class="block mt-4 font-bold" for="place">What's the place?</label>
+                        <input class="p-2 w-64 border border-blue-200 rounded focus:outline-none focus:ring-purple-500 focus:border-purple-500 placeholder-gray-300" placeholder="The Ledbury" type="text" id="place" name="name">
+
+                        <label class="block mt-4 font-bold" for="why">Why do you like it?</label>
+                        <input class="p-2 w-64 border border-blue-200 rounded focus:outline-none focus:ring-purple-500 focus:border-purple-500 placeholder-gray-300" placeholder="Great food" type="text" id="why" name="reason">
+
+                        <label class="block mt-4 font-bold" for="category">Which category?</label>
+                        <input class="p-2 w-64 border border-blue-200 rounded focus:outline-none focus:ring-purple-500 focus:border-purple-500 placeholder-gray-300" placeholder="Michelin star place" type="text" id="category" name="whichcategory">
+                        <button class="mx-auto block mt-4 bg-yellow-200 rounded px-4 py-2">Submit</button>
+                    </form>
+                </div>
+        </div>
+        </div>
+
+    </body>
+</html>
